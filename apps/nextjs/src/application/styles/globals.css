@@ -1,0 +1,15 @@
+@media only screen and (max-width: 500px) {
+  .recharts-legend-wrapper {
+    font-size: 12px !important;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .recharts-legend-wrapper {
+    font-size: 10px !important;
+  }
+}
+
+html {
+  scroll-behavior: smooth !important;
+}

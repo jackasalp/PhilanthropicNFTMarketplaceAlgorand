@@ -1,0 +1,21 @@
+{
+  "name": "nft-marketplace",
+  "packageManager": "yarn@3.2.4",
+  "scripts": {
+    "develop": "cross-env FORCE_COLOR=1 npm-run-all -l -p \"develop:*\"",
+    "build:packages": "yarn workspace nft-marketplace-config build",
+    "watch:packages": "yarn workspace nft-marketplace-config watch",
+    "develop:app": "yarn workspace nft-marketplace-nextjs dev",
+    "develop:nextjs": "yarn workspace nft-marketplace-api start"
+  },
+  "dependencies": {
+    "npm-run-all": "^4.1.5"
+  },
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}

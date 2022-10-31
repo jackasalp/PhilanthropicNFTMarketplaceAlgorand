@@ -1,0 +1,46 @@
+{
+  "reflection": true,
+  "extends": "@tsconfig/node16/tsconfig.json",
+  "ts-node": {
+    "transpileOnly": true,
+    "files": true,
+    "esm": true,
+    "compilerOptions": {},
+    "experimentalSpecifierResolution": "node"
+  },
+  "compilerOptions": {
+    "lib": [
+      "ESNext"
+    ],
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "declaration": true,
+    "declarationMap": true
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "./config.d.ts",
+    "./config.js",
+    "./config.js.map",
+    "./core.d.ts",
+    "./core.js",
+    "./core.js.map",
+    "./index.d.ts",
+    "./index.js",
+    "./index.js.map",
+    "./parser.d.ts",
+    "./parser.js",
+    "./parser.js.map",
+    "./yaml.d.ts",
+    "./yaml.js",
+    "./yaml.js.map"
+  ]
+}

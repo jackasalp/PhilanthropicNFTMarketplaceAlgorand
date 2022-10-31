@@ -1,0 +1,37 @@
+{
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/*.code-search": true,
+    "dist": true
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.expo": true,
+    "**/.next": true,
+    "**/.expo-shared": true,
+    "**/.vscode": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    ".DS_Store": true,
+    "dist": true,
+    "config.d.ts": true,
+    "config.js": true,
+    "config.js.map": true,
+    "core.d.ts": true,
+    "core.js": true,
+    "core.js.map": true,
+    "index.d.ts": true,
+    "index.js": true,
+    "index.js.map": true,
+    "parser.d.ts": true,
+    "parser.js": true,
+    "parser.js.map": true,
+    "yaml.d.ts": true,
+    "yaml.js": true,
+    "yaml.js.map": true
+  }
+}
