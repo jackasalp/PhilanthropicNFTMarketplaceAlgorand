@@ -69,7 +69,7 @@ Now you can start the project using the following commands:
 yarn
 
 # Build packages
-yarn build
+yarn build:packages
 
 # Run the NextJS app and Express API in parallel
 yarn develop
